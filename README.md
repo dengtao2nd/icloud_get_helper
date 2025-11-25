@@ -1,5 +1,7 @@
 # icloud_get_helper
 
+### Service: Code sale(note:2022 years Development). Price: $500 (USD). Deliverable: Source code only. Please note that this price does not include any future revisions, maintenance, or feature additions.
+
 ## Project Overview 项目简介
 This repository hosts a jailbreak-oriented research toolkit that drives Apple private frameworks to inspect and replay several iCloud workflows (token bootstrap, CloudKit backup/Photos/CloudDocs harvesting, CardDAV contacts sync, SecureBackup/escrow recovery). It ships with a command-line harness, a substrate-injectable dylib, protobuf schemas, third-party dependencies, Frida helpers, and captured HTTP sessions so you can reproduce the original device behaviour offline.  
 icloud_get_helper 是一套面向越狱 iOS 设备的 iCloud 协议研究工具链，围绕 Apple 的私有 Framework（AuthKit、CloudKitDaemon、ProtectedCloudStorage、SecureBackup、Octagon 等）实现了令牌采集、CloudKit/PCS 抓包重放、通讯录和备份拉取等能力。仓库不仅包含可执行程序与 MobileSubstrate 插件，还打包了用于解析 CloudKit Protobuf 的 `.proto` 定义、第三方库、Frida 脚本以及网络抓包样本，方便在实验环境下重现苹果端到端同步流程。
